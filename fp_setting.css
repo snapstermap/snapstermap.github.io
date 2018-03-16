@@ -7,3 +7,46 @@
 .threadreplysection{ background-color: #e7e7e7; }
 
 .postblock-read .postrender .postinner > .postuser .background-image::after{background:transparent;}
+
+.drawer-container>.drawer {
+    min-width: 30px;
+    flex-basis: 30px;
+    transition: 0.5s;
+    overflow: hidden;
+    opacity: 0.25;
+}
+
+.drawer-container>.drawer:hover {
+    flex-basis: 250px;
+    opacity: 1;
+}
+
+.drawer-container>.drawer>.drawer-section {
+    min-width: 250px;
+}
+
+.title {color: #0a0a0a;}
+
+.ql-editor {color: #000;}
+
+.postblock .postfoot .left .votebutton 
+    {opacity: 1;} 
+
+.votebutton 
+    img { width: 20px; height: 20px;}
+
+.alert-dropdown { padding: .5rem; }
+
+.alert-dropdown .alert-item { margin: 0 -.5rem; }
+
+.baninfo { background-color: #DD0000 !important; color: #FFE7E7; }
+
+.username a { color: #03a9f4 !important; }
+
+.user-gold a { color: #e8b622 !important; }
+
+.user-moderator a { color: #8bc34a !important; }
+
+.user-admin a { color: #b185ff !important; }
+
+.user-banned a { color: #DD0000 !important; }
