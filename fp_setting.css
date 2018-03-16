@@ -50,3 +50,33 @@
 .user-admin a { color: #b185ff !important; }
 
 .user-banned a { color: #DD0000 !important; }
+
+.postrender .postinner > .postuser {
+	padding: 0px;
+}
+
+.postrender .postinner > .postuser .username {
+	text-align: center;
+	text-shadow: 0.25px 0.25px 0.25px #666;
+	font-weight: bolder;
+	padding-bottom: 2.0rem;
+	padding-top: 0px;
+	top: 0px;
+}
+
+span.userlevel {
+	display: flex;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: auto;
+	border-radius: unset;
+	border-bottom-left-radius: 3px;
+	padding: 3px 6px;
+	text-shadow: 1px 1px 4px #333;
+	font-size: 0.6rem
+}
+
+.postrender .postinner > .postuser .postavatar {
+	margin-top: 1.5rem;
+}
