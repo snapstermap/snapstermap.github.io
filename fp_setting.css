@@ -51,17 +51,5 @@
 
 .user-banned a { color: #DD0000 !important; }
 
-.postrender .postinner > .postuser {
-	padding: 0px;
-}
-
-.postrender .postinner > .postuser .username {
-	text-align: center;
-	text-shadow: 0.25px 0.25px 0.25px #666;
-	font-weight: bolder;
-	padding-bottom: 2.0rem;
-	padding-top: 0px;
-	top: 0px;
-}
 
 
