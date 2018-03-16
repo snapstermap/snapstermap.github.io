@@ -1,3 +1,8 @@
+html {
+    background: url(https://facepunch.com/fp/bg.png) #bbb;
+    background-color: rgb(187, 187, 187);
+}
+
 #header #toolbar {
     background-color: #2890E2;
 }
