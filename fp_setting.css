@@ -39,6 +39,8 @@ html {
     background-color: #1B69A6 !important;
 }
 
+body.page-forum .forumblock .threadcount, body.page-forum .forumblock .postcount { display: none; }
+
 .force-wide-design #wrapper {padding: 0px;}
 
 .postrender .postinner > .postuser .background-image::before { background-color: #eee;}
