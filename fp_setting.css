@@ -133,4 +133,6 @@ span.userlevel {
     top: 0px;
 }
 
-.body.page-forum .forumblock .threadcount { display: none;}, body.page-forum .forumblock .postcount { display: none;} 
+.body.page-forum .forumblock .threadcount { display: none;} 
+
+.body.page-forum .forumblock .postcount { display: none;} 
