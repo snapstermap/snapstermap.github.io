@@ -1,3 +1,39 @@
+#header #toolbar {
+    background-color: #2890E2;
+}
+#wrapper #content .forumcategoryblock .forumcategoryheader {
+    background-color: #2890E2;
+}
+#header #toolbar .navbar-item {
+    color: #f2f2f2;
+}
+#header #toolbar .navbar-item:hover {
+    background-color: #1B69A6 !important;
+}
+#wrapper #content .forumcategoryblock .forumcategoryheader .categorytitle, #wrapper #content .forumcategoryblock .forumcategoryheader .mdi {
+    color: white
+}
+ 
+#wrapper #content .pagnation.threadpagnation, #wrapper #content .pagnation.postpagnation {
+    background-color: #2890E2 !important;
+}
+#wrapper #content .pagnation.threadpagnation, #wrapper #content .pagnation.postpagnation {
+    background-color: #2890E2 !important;
+}
+#wrapper #content .pagnation.threadpagnation a.page.is-active, #wrapper #content .pagnation.postpagnation a.page.is-active {
+    background-color: #1B69A6 !important;
+}
+.page.pageinfo {
+    color: white !important;
+}
+#wrapper #content .pagnation.threadpagnation .page, #wrapper #content .pagnation.postpagnation .page {
+    color: white !important;
+}
+#wrapper #content .pagnation.threadpagnation a.page:hover, #wrapper #content .pagnation.postpagnation a.page:hover {
+    color: white !important;
+    background-color: #1B69A6 !important;
+}
+
 .force-wide-design #wrapper {padding: 0px;}
 
 .postrender .postinner > .postuser .background-image::before {background-color: #eee;}
