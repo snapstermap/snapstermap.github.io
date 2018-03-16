@@ -41,6 +41,8 @@ html {
 
 body.page-forum .forumblock .threadcount, body.page-forum .forumblock .postcount { display: none; }
 
+body.page-forum .threadlistsection .threadblock .threadlastpost { text-align: center; }
+
 .force-wide-design #wrapper {padding: 0px;}
 
 .postrender .postinner > .postuser .background-image::before { background-color: #eee;}
