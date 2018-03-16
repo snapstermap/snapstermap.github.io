@@ -41,15 +41,15 @@
 
 .baninfo { background-color: #DD0000 !important; color: #FFE7E7; }
 
-.username a { color: #03a9f4 !important; }
+.username a { letter-spacing: 3px; color: #03a9f4 !important; }
 
-.user-gold a { color: #e8b622 !important; }
+.user-gold a { letter-spacing: 3px; color: #D5A71F !important; }
 
-.user-moderator a { color: #8bc34a !important; }
+.user-moderator a { letter-spacing: 3px; color: #8bc34a !important; }
 
-.user-admin a { color: #b185ff !important; }
+.user-admin a { letter-spacing: 3px; color: #b185ff !important; }
 
-.user-banned a { color: #DD0000 !important; }
+.user-banned a { letter-spacing: 3px; color: #DD0000 !important; }
 
 .postrender .postinner > .postuser {
 	padding: 0px;
