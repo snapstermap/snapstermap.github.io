@@ -45,11 +45,11 @@
 
 .user-gold a { color: #D5A71F !important; }
 
-.user-moderator a { 3px; color: #8bc34a !important; }
+.user-moderator a { color: #8bc34a !important; }
 
-.user-admin a { 3px; color: #b185ff !important; }
+.user-admin a { color: #b185ff !important; }
 
-.user-banned a { 3px; color: #DD0000 !important; }
+.user-banned a { color: #DD0000 !important; }
 
 .postrender .postinner > .postuser {
 	padding: 0px;
