@@ -144,3 +144,24 @@ span.userlevel {
 .postblock .postcontent{
     background: linear-gradient(to right, #e6ffff, #fff 512px);
 }
+
+$( "<style>.mdi-scroll2top::before { content: '\\F623'; } #scroll2top { position: fixed; bottom: 10px; right: 10px; display: none; }</style>" ).appendTo( "head" );
+$('#wrapper').append('<a href="#top" id="scroll2top" class="button is-primary"><i class="mdi mdi-scroll2top"></i></a>');
+
+$(window).scroll(function() {
+    console.log("Scroll Height +: " + $(window).scrollTop() + $(window).height());
+    console.log("Doc Height: " + $(document).height());
+    if($(window).scrollTop() + $(window).height() == $(document).height()) {
+        $('#scroll2top').show("fast");
+        console.log("Display");
+    }
+    if($(window).scrollTop() <= 0 && $('#scroll2top').is(":visible")) {
+        $('#scroll2top').hide("fast");
+        console.log("Hide");
+    }
+});
+
+$("a[href='#top']").click(function() {
+    $("html, body").animate({ scrollTop: 0 }, 500);
+    console.log("Hide");
+});
