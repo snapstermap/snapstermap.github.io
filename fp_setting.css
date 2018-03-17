@@ -137,3 +137,10 @@ span.userlevel {
     top: 0px;
 }
 
+.postblock.postblock-own .postcontent{
+    background: linear-gradient(to right, #e6ffe6, #fff 512px);
+}
+
+.postblock .postcontent{
+    background: linear-gradient(to right, #e6ffff, #fff 512px);
+}
